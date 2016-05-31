@@ -1,0 +1,17 @@
+
+
+2. In the polyTable method, when the value of N is set to -1 at run time, the program does not enter the 'for' loop as it fails the conditional check in the 'for' statement. The control goes to the end of the for loop and later returns to main. This is because the compiler defaultly stores an int as a signed int and hence the for loop check (K <= N) fails when the value of N is -1 fails. If the intent is to pass only positive numbers, it is best practice to use 'unsigned int' so that the XCODE compiler throws an error at compile time / does not allow such modifications at run time. Or we could also use an assert statement or print an error to notify the user.
+
+4. After running the runningSum program for 3 times when the value of the static variable is changed to 2 then the value of x4 is 7.
+
+6. The sin function took about 7.17/% of the time and the printf function took 91.96% of the time.
+
+7. The method description was added to the class NSObject in the version iOS 2.0.
+
+8. Instead of the NSString method +stringWithContentsOfURL: we can use +stringWithContentsOfURL:encoding:error: or +stringWithContentsOfURL:usedEncoding:error:. The method +stringWithContentsOfURL: interprets the data in the form of Unicode characters,  UTF-8 characters and as the default C string encoding. But since the default C string encoding will vary with the user’s configuration, we cannot depend on this method unless you are using Unicode or UTF-8 or if we can verify the default C string encoding. This was the reason that +stringWithContentsOfURL: was deprecated.
+
+9. The objectForKey: is an NSDictionary method which looks up for an object with the key. The valueForKey: is part of the NSKeyValueCoding protocol which is an informal protocol which defines a mechanism by which you can access the properties of an object indirectly by name (or key). The valueForKey:  can be used on an NSDictionary to return information about the dictionary, such as the count of objects inside it, the list of all keys, etc where as objectForKey: would be used to actually look into the dictionary(contents of the dictionary).
+
+10. The NSArray class conforms to NSObject, NSFastEnumeration, NSMutableCopying, NSCopying and NSSecureCoding protocols.
+
+

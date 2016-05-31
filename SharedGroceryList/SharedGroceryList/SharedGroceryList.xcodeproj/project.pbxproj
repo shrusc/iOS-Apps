@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADB041C51A26D72900120401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB041C41A26D72900120401 /* Foundation.framework */; };
+		ADB041C71A26D72900120401 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB041C61A26D72900120401 /* CoreGraphics.framework */; };
+		ADB041C91A26D72900120401 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB041C81A26D72900120401 /* UIKit.framework */; };
+		ADB041CF1A26D72900120401 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB041CD1A26D72900120401 /* InfoPlist.strings */; };
+		ADB041D11A26D72900120401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB041D01A26D72900120401 /* main.m */; };
+		ADB041D51A26D72900120401 /* SHRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB041D41A26D72900120401 /* SHRAppDelegate.m */; };
+		ADB041D71A26D72900120401 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB041D61A26D72900120401 /* Images.xcassets */; };
+		ADB041DE1A26D72900120401 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB041DD1A26D72900120401 /* XCTest.framework */; };
+		ADB041DF1A26D72900120401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB041C41A26D72900120401 /* Foundation.framework */; };
+		ADB041E01A26D72900120401 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB041C81A26D72900120401 /* UIKit.framework */; };
+		ADB041E81A26D72900120401 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB041E61A26D72900120401 /* InfoPlist.strings */; };
+		ADB041EA1A26D72900120401 /* SharedGroceryListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB041E91A26D72900120401 /* SharedGroceryListTests.m */; };
+		ADB041F41A26D76F00120401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB041F31A26D76F00120401 /* Main.storyboard */; };
+		ADB041F71A26DE2700120401 /* SHRListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB041F61A26DE2700120401 /* SHRListViewController.m */; };
+		ADB041FA1A2701A200120401 /* SHRListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB041F91A2701A200120401 /* SHRListDetailViewController.m */; };
+		ADB041FD1A27088400120401 /* SHRAddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB041FC1A27088400120401 /* SHRAddItemViewController.m */; };
+		ADB042011A2709C200120401 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042001A2709C200120401 /* CoreLocation.framework */; };
+		ADB042031A2709DD00120401 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042021A2709DD00120401 /* libz.dylib */; };
+		ADB042051A2709E700120401 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042041A2709E700120401 /* MobileCoreServices.framework */; };
+		ADB0420A1A270A1400120401 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042061A270A1400120401 /* QuartzCore.framework */; };
+		ADB0420B1A270A1400120401 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042071A270A1400120401 /* Security.framework */; };
+		ADB0420C1A270A1400120401 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042081A270A1400120401 /* StoreKit.framework */; };
+		ADB0420D1A270A1400120401 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042091A270A1400120401 /* SystemConfiguration.framework */; };
+		ADB0420F1A270A3600120401 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0420E1A270A3600120401 /* AudioToolbox.framework */; };
+		ADB042111A270A5600120401 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042101A270A5600120401 /* CFNetwork.framework */; };
+		ADB042141A270A8300120401 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042121A270A8300120401 /* Bolts.framework */; };
+		ADB042151A270A8300120401 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042131A270A8300120401 /* Parse.framework */; };
+		ADB042181A27F00500120401 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042161A27F00500120401 /* AddressBook.framework */; };
+		ADB042191A27F00500120401 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB042171A27F00500120401 /* AddressBookUI.framework */; };
+		ADB0421C1A27F95F00120401 /* SHRShareListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB0421B1A27F95F00120401 /* SHRShareListViewController.m */; };
+		ADB042211A2917FE00120401 /* SHRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB042201A2917FE00120401 /* SHRLoginViewController.m */; };
+		ADB042241A29187B00120401 /* SHRSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB042231A29187B00120401 /* SHRSignupViewController.m */; };
+		ADB042271A2C24AE00120401 /* SHRSharedListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB042261A2C24AE00120401 /* SHRSharedListDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADB041E11A26D72900120401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADB041B91A26D72900120401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADB041C01A26D72900120401;
+			remoteInfo = SharedGroceryList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADB041C11A26D72900120401 /* SharedGroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedGroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB041C41A26D72900120401 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADB041C61A26D72900120401 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADB041C81A26D72900120401 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADB041CC1A26D72900120401 /* SharedGroceryList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharedGroceryList-Info.plist"; sourceTree = "<group>"; };
+		ADB041CE1A26D72900120401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADB041D01A26D72900120401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADB041D21A26D72900120401 /* SharedGroceryList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SharedGroceryList-Prefix.pch"; sourceTree = "<group>"; };
+		ADB041D31A26D72900120401 /* SHRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRAppDelegate.h; sourceTree = "<group>"; };
+		ADB041D41A26D72900120401 /* SHRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRAppDelegate.m; sourceTree = "<group>"; };
+		ADB041D61A26D72900120401 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADB041DC1A26D72900120401 /* SharedGroceryListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedGroceryListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB041DD1A26D72900120401 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADB041E51A26D72900120401 /* SharedGroceryListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharedGroceryListTests-Info.plist"; sourceTree = "<group>"; };
+		ADB041E71A26D72900120401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADB041E91A26D72900120401 /* SharedGroceryListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedGroceryListTests.m; sourceTree = "<group>"; };
+		ADB041F31A26D76F00120401 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ADB041F51A26DE2700120401 /* SHRListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRListViewController.h; sourceTree = "<group>"; };
+		ADB041F61A26DE2700120401 /* SHRListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRListViewController.m; sourceTree = "<group>"; };
+		ADB041F81A2701A200120401 /* SHRListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRListDetailViewController.h; sourceTree = "<group>"; };
+		ADB041F91A2701A200120401 /* SHRListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRListDetailViewController.m; sourceTree = "<group>"; };
+		ADB041FB1A27088400120401 /* SHRAddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRAddItemViewController.h; sourceTree = "<group>"; };
+		ADB041FC1A27088400120401 /* SHRAddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRAddItemViewController.m; sourceTree = "<group>"; };
+		ADB041FE1A27097500120401 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		ADB042001A2709C200120401 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ADB042021A2709DD00120401 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		ADB042041A2709E700120401 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		ADB042061A270A1400120401 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADB042071A270A1400120401 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ADB042081A270A1400120401 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		ADB042091A270A1400120401 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ADB0420E1A270A3600120401 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ADB042101A270A5600120401 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		ADB042121A270A8300120401 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		ADB042131A270A8300120401 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		ADB042161A27F00500120401 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		ADB042171A27F00500120401 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		ADB0421A1A27F95F00120401 /* SHRShareListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRShareListViewController.h; sourceTree = "<group>"; };
+		ADB0421B1A27F95F00120401 /* SHRShareListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRShareListViewController.m; sourceTree = "<group>"; };
+		ADB0421F1A2917FE00120401 /* SHRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRLoginViewController.h; sourceTree = "<group>"; };
+		ADB042201A2917FE00120401 /* SHRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRLoginViewController.m; sourceTree = "<group>"; };
+		ADB042221A29187B00120401 /* SHRSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRSignupViewController.h; sourceTree = "<group>"; };
+		ADB042231A29187B00120401 /* SHRSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRSignupViewController.m; sourceTree = "<group>"; };
+		ADB042251A2C24AE00120401 /* SHRSharedListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRSharedListDetailViewController.h; sourceTree = "<group>"; };
+		ADB042261A2C24AE00120401 /* SHRSharedListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRSharedListDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADB041BE1A26D72900120401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB042181A27F00500120401 /* AddressBook.framework in Frameworks */,
+				ADB042191A27F00500120401 /* AddressBookUI.framework in Frameworks */,
+				ADB042111A270A5600120401 /* CFNetwork.framework in Frameworks */,
+				ADB0420F1A270A3600120401 /* AudioToolbox.framework in Frameworks */,
+				ADB0420A1A270A1400120401 /* QuartzCore.framework in Frameworks */,
+				ADB0420B1A270A1400120401 /* Security.framework in Frameworks */,
+				ADB0420C1A270A1400120401 /* StoreKit.framework in Frameworks */,
+				ADB0420D1A270A1400120401 /* SystemConfiguration.framework in Frameworks */,
+				ADB042051A2709E700120401 /* MobileCoreServices.framework in Frameworks */,
+				ADB042141A270A8300120401 /* Bolts.framework in Frameworks */,
+				ADB042031A2709DD00120401 /* libz.dylib in Frameworks */,
+				ADB042011A2709C200120401 /* CoreLocation.framework in Frameworks */,
+				ADB042151A270A8300120401 /* Parse.framework in Frameworks */,
+				ADB041C71A26D72900120401 /* CoreGraphics.framework in Frameworks */,
+				ADB041C91A26D72900120401 /* UIKit.framework in Frameworks */,
+				ADB041C51A26D72900120401 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB041D91A26D72900120401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB041DE1A26D72900120401 /* XCTest.framework in Frameworks */,
+				ADB041E01A26D72900120401 /* UIKit.framework in Frameworks */,
+				ADB041DF1A26D72900120401 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADB041B81A26D72900120401 = {
+			isa = PBXGroup;
+			children = (
+				ADB041CA1A26D72900120401 /* SharedGroceryList */,
+				ADB041E31A26D72900120401 /* SharedGroceryListTests */,
+				ADB041C31A26D72900120401 /* Frameworks */,
+				ADB041C21A26D72900120401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADB041C21A26D72900120401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADB041C11A26D72900120401 /* SharedGroceryList.app */,
+				ADB041DC1A26D72900120401 /* SharedGroceryListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADB041C31A26D72900120401 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB042161A27F00500120401 /* AddressBook.framework */,
+				ADB042171A27F00500120401 /* AddressBookUI.framework */,
+				ADB042101A270A5600120401 /* CFNetwork.framework */,
+				ADB0420E1A270A3600120401 /* AudioToolbox.framework */,
+				ADB042061A270A1400120401 /* QuartzCore.framework */,
+				ADB042071A270A1400120401 /* Security.framework */,
+				ADB042081A270A1400120401 /* StoreKit.framework */,
+				ADB042091A270A1400120401 /* SystemConfiguration.framework */,
+				ADB042041A2709E700120401 /* MobileCoreServices.framework */,
+				ADB042021A2709DD00120401 /* libz.dylib */,
+				ADB042001A2709C200120401 /* CoreLocation.framework */,
+				ADB041FE1A27097500120401 /* Accounts.framework */,
+				ADB042121A270A8300120401 /* Bolts.framework */,
+				ADB042131A270A8300120401 /* Parse.framework */,
+				ADB041C41A26D72900120401 /* Foundation.framework */,
+				ADB041C61A26D72900120401 /* CoreGraphics.framework */,
+				ADB041C81A26D72900120401 /* UIKit.framework */,
+				ADB041DD1A26D72900120401 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB041CA1A26D72900120401 /* SharedGroceryList */ = {
+			isa = PBXGroup;
+			children = (
+				ADB041D31A26D72900120401 /* SHRAppDelegate.h */,
+				ADB041D41A26D72900120401 /* SHRAppDelegate.m */,
+				ADB041F51A26DE2700120401 /* SHRListViewController.h */,
+				ADB041F61A26DE2700120401 /* SHRListViewController.m */,
+				ADB041F81A2701A200120401 /* SHRListDetailViewController.h */,
+				ADB041F91A2701A200120401 /* SHRListDetailViewController.m */,
+				ADB041FB1A27088400120401 /* SHRAddItemViewController.h */,
+				ADB041FC1A27088400120401 /* SHRAddItemViewController.m */,
+				ADB0421F1A2917FE00120401 /* SHRLoginViewController.h */,
+				ADB042221A29187B00120401 /* SHRSignupViewController.h */,
+				ADB042231A29187B00120401 /* SHRSignupViewController.m */,
+				ADB042201A2917FE00120401 /* SHRLoginViewController.m */,
+				ADB0421A1A27F95F00120401 /* SHRShareListViewController.h */,
+				ADB0421B1A27F95F00120401 /* SHRShareListViewController.m */,
+				ADB042251A2C24AE00120401 /* SHRSharedListDetailViewController.h */,
+				ADB042261A2C24AE00120401 /* SHRSharedListDetailViewController.m */,
+				ADB041D61A26D72900120401 /* Images.xcassets */,
+				ADB041CB1A26D72900120401 /* Supporting Files */,
+				ADB041F31A26D76F00120401 /* Main.storyboard */,
+			);
+			path = SharedGroceryList;
+			sourceTree = "<group>";
+		};
+		ADB041CB1A26D72900120401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB041CC1A26D72900120401 /* SharedGroceryList-Info.plist */,
+				ADB041CD1A26D72900120401 /* InfoPlist.strings */,
+				ADB041D01A26D72900120401 /* main.m */,
+				ADB041D21A26D72900120401 /* SharedGroceryList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADB041E31A26D72900120401 /* SharedGroceryListTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADB041E91A26D72900120401 /* SharedGroceryListTests.m */,
+				ADB041E41A26D72900120401 /* Supporting Files */,
+			);
+			path = SharedGroceryListTests;
+			sourceTree = "<group>";
+		};
+		ADB041E41A26D72900120401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB041E51A26D72900120401 /* SharedGroceryListTests-Info.plist */,
+				ADB041E61A26D72900120401 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADB041C01A26D72900120401 /* SharedGroceryList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB041ED1A26D72900120401 /* Build configuration list for PBXNativeTarget "SharedGroceryList" */;
+			buildPhases = (
+				ADB041BD1A26D72900120401 /* Sources */,
+				ADB041BE1A26D72900120401 /* Frameworks */,
+				ADB041BF1A26D72900120401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharedGroceryList;
+			productName = SharedGroceryList;
+			productReference = ADB041C11A26D72900120401 /* SharedGroceryList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADB041DB1A26D72900120401 /* SharedGroceryListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB041F01A26D72900120401 /* Build configuration list for PBXNativeTarget "SharedGroceryListTests" */;
+			buildPhases = (
+				ADB041D81A26D72900120401 /* Sources */,
+				ADB041D91A26D72900120401 /* Frameworks */,
+				ADB041DA1A26D72900120401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADB041E21A26D72900120401 /* PBXTargetDependency */,
+			);
+			name = SharedGroceryListTests;
+			productName = SharedGroceryListTests;
+			productReference = ADB041DC1A26D72900120401 /* SharedGroceryListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADB041B91A26D72900120401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SHR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Shruti Saligrama Chandrakantha LNU";
+				TargetAttributes = {
+					ADB041C01A26D72900120401 = {
+						DevelopmentTeam = H7739QEN48;
+					};
+					ADB041DB1A26D72900120401 = {
+						TestTargetID = ADB041C01A26D72900120401;
+					};
+				};
+			};
+			buildConfigurationList = ADB041BC1A26D72900120401 /* Build configuration list for PBXProject "SharedGroceryList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADB041B81A26D72900120401;
+			productRefGroup = ADB041C21A26D72900120401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADB041C01A26D72900120401 /* SharedGroceryList */,
+				ADB041DB1A26D72900120401 /* SharedGroceryListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADB041BF1A26D72900120401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB041F41A26D76F00120401 /* Main.storyboard in Resources */,
+				ADB041CF1A26D72900120401 /* InfoPlist.strings in Resources */,
+				ADB041D71A26D72900120401 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB041DA1A26D72900120401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB041E81A26D72900120401 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADB041BD1A26D72900120401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB042271A2C24AE00120401 /* SHRSharedListDetailViewController.m in Sources */,
+				ADB041D51A26D72900120401 /* SHRAppDelegate.m in Sources */,
+				ADB041D11A26D72900120401 /* main.m in Sources */,
+				ADB042211A2917FE00120401 /* SHRLoginViewController.m in Sources */,
+				ADB0421C1A27F95F00120401 /* SHRShareListViewController.m in Sources */,
+				ADB041FD1A27088400120401 /* SHRAddItemViewController.m in Sources */,
+				ADB041F71A26DE2700120401 /* SHRListViewController.m in Sources */,
+				ADB042241A29187B00120401 /* SHRSignupViewController.m in Sources */,
+				ADB041FA1A2701A200120401 /* SHRListDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB041D81A26D72900120401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB041EA1A26D72900120401 /* SharedGroceryListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADB041E21A26D72900120401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADB041C01A26D72900120401 /* SharedGroceryList */;
+			targetProxy = ADB041E11A26D72900120401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADB041CD1A26D72900120401 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB041CE1A26D72900120401 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADB041E61A26D72900120401 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB041E71A26D72900120401 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADB041EB1A26D72900120401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADB041EC1A26D72900120401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADB041EE1A26D72900120401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SharedGroceryList/SharedGroceryList-Prefix.pch";
+				INFOPLIST_FILE = "SharedGroceryList/SharedGroceryList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADB041EF1A26D72900120401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SharedGroceryList/SharedGroceryList-Prefix.pch";
+				INFOPLIST_FILE = "SharedGroceryList/SharedGroceryList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADB041F11A26D72900120401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SharedGroceryList.app/SharedGroceryList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SharedGroceryList/SharedGroceryList-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SharedGroceryListTests/SharedGroceryListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADB041F21A26D72900120401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SharedGroceryList.app/SharedGroceryList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SharedGroceryList/SharedGroceryList-Prefix.pch";
+				INFOPLIST_FILE = "SharedGroceryListTests/SharedGroceryListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADB041BC1A26D72900120401 /* Build configuration list for PBXProject "SharedGroceryList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB041EB1A26D72900120401 /* Debug */,
+				ADB041EC1A26D72900120401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB041ED1A26D72900120401 /* Build configuration list for PBXNativeTarget "SharedGroceryList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB041EE1A26D72900120401 /* Debug */,
+				ADB041EF1A26D72900120401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB041F01A26D72900120401 /* Build configuration list for PBXNativeTarget "SharedGroceryListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB041F11A26D72900120401 /* Debug */,
+				ADB041F21A26D72900120401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADB041B91A26D72900120401 /* Project object */;
+}
